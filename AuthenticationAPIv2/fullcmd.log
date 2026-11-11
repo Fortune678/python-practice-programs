@@ -1,0 +1,1 @@
+"C:\Users\smkwebane\AppData\Local\Python\pythoncore-3.14-64\python.exe" "-c" "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=15560, pipe_handle=616)" "--multiprocessing-fork"

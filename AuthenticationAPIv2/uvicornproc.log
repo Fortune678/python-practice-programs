@@ -1,0 +1,6 @@
+
+ProcessId CommandLine                                                          
+--------- -----------                                                          
+    10772 powershell  -Command "Get-CimInstance Win32_Process | Where-Object...
+
+

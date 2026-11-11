@@ -1,0 +1,129 @@
+======================================================================
+LITEAUTH API DIAGNOSTIC REPORT
+======================================================================
+Generated: 2026-10-01 11:13:31.886073
+Python Version: 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]
+Working Directory: C:\Users\smkwebane\Documents\PYTHON-SANDBOX\litestarapplications\LiteAuthApi
+Process ID: 5880
+Parent Process ID: 16040
+
+======================================================================
+IMPORT CHECKS
+======================================================================
+[PASS] app.app
+[PASS] models.User
+[PASS] models.Token
+[PASS] schemas.RegisterRequest
+[PASS] schemas.LoginRequest
+[PASS] data_access.DataAccess
+[FAIL] services.authservice.AuthService
+Traceback (most recent call last):
+  File "C:\Users\smkwebane\Documents\PYTHON-SANDBOX\litestarapplications\LiteAuthApi\healthcheck.py", line 59, in <module>
+    module = __import__(module_name, fromlist=[object_name])
+ModuleNotFoundError: No module named 'services'
+
+
+======================================================================
+CONTROLLER CHECKS
+======================================================================
+[FAIL] AuthenticationController
+Traceback (most recent call last):
+  File "C:\Users\smkwebane\Documents\PYTHON-SANDBOX\litestarapplications\LiteAuthApi\healthcheck.py", line 107, in <module>
+    __import__(module_name)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'controllers'
+
+[FAIL] LogoutController
+Traceback (most recent call last):
+  File "C:\Users\smkwebane\Documents\PYTHON-SANDBOX\litestarapplications\LiteAuthApi\healthcheck.py", line 107, in <module>
+    __import__(module_name)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'controllers'
+
+[FAIL] UserManagementController
+Traceback (most recent call last):
+  File "C:\Users\smkwebane\Documents\PYTHON-SANDBOX\litestarapplications\LiteAuthApi\healthcheck.py", line 107, in <module>
+    __import__(module_name)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'controllers'
+
+
+======================================================================
+DATABASE CHECK
+======================================================================
+[PASS] Database connection successful
+
+======================================================================
+APPLICATION CHECK
+======================================================================
+[PASS] Application loaded
+
+======================================================================
+PORT CHECK
+======================================================================
+[WARN] Port 8000 is CLOSED
+
+======================================================================
+ENVIRONMENT VARIABLES
+======================================================================
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\smkwebane\AppData\Roaming
+BUNDLED_DEBUGPY_PATH=c:\Users\smkwebane\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_8812_BYDCLTZHQILKIWII
+COLORTERM=truecolor
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=PTA-SMKWEBANE
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+COPILOT_DEBUG_NONCE=d2fb52b55837ca839a20a094be8cea3c
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+EFC_4900_1592913036=1
+EFC_4900_4126798990=1
+HOMEDRIVE=C:
+HOMEPATH=\Users\smkwebane
+LANG=en_US.UTF-8
+LOCALAPPDATA=C:\Users\smkwebane\AppData\Local
+LOGONSERVER=\\PTA-DC01
+MFILESVERSION=26.9.16459.6
+NUMBER_OF_PROCESSORS=8
+ONEDRIVE=C:\Users\smkwebane\OneDrive
+ONEDRIVECONSUMER=C:\Users\smkwebane\OneDrive
+OS=Windows_NT
+PATH=c:\Users\smkwebane\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\smkwebane\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\smkwebane\.local\bin;C:\Users\smkwebane\AppData\Local\Microsoft\WindowsApps;C:\Users\smkwebane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smkwebane\AppData\Local\Programs\DockerDesktop\resources\bin;c:\Users\smkwebane\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8c01
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PSMODULEPATH=C:\Users\smkwebane\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYDEVD_DISABLE_FILE_VALIDATION=1
+PYTHONSTARTUP=c:\Users\smkwebane\AppData\Roaming\Code\User\workspaceStorage\f8f12be7fe69f823dd97c33375ed096a\ms-python.python\pythonrc.py
+PYTHON_BASIC_REPL=1
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\SMKWEB~1\AppData\Local\Temp
+TERM_PROGRAM=vscode
+TERM_PROGRAM_VERSION=1.139.1
+TMP=C:\Users\SMKWEB~1\AppData\Local\Temp
+USERDNSDOMAIN=SANSA.ORG.ZA
+USERDOMAIN=SANSA
+USERDOMAIN_ROAMINGPROFILE=SANSA
+USERNAME=smkwebane
+USERPROFILE=C:\Users\smkwebane
+VSCODE_A11Y_MODE=0
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\smkwebane\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-f86017c74a719ac2.txt
+VSCODE_INJECTION=1
+VSCODE_NONCE=65292869-8f84-4c21-aaf1-14f95e0e6ffd
+VSCODE_STABLE=1
+WINDIR=C:\WINDOWS
+
+======================================================================
+HEALTH CHECK COMPLETED
+======================================================================
